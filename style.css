@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #2D25A0;
+    height: 70px;
+}
+.navigation{
+    height: 44px;
+    width: 1350px;
+    margin:auto;
+   
+
+
+}
+.menu-area{
+  display: flex;  
+  justify-content: space-between;
+}
+.menu-area ul{
+    display: flex;
+    padding:0;
+    margin-top: 20px;
+    
+}
+
+.menu-area li{
+    list-style: none;
+    margin-right: 20px;
+    align-items: center;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 200;
+    
+
+
+}
+.menu-area ul li :hover{
+    background-color: red;
+}
+
+.menu-area a{
+    text-decoration: none;
+    color: white;
+}
+
+.fa-bars{
+    display: none;
+}
+/* login area button */
+
+.login{
+    background-color: #E02C6D;
+    color: white;
+    font-size: 25px;
+    margin-top: 17px;
+    border-radius: 10px;
+}
+
+.fa-sign-in-alt{
+    color: white;
+    margin-right: 7px;
+    font-size: 23px;
+}
