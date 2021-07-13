@@ -77,7 +77,7 @@ button {
 }
 .text-area{
     width: 40%;
-    height: 800px;
+    height: 700px;
     color: white;
     margin-left: 10%;
 }
@@ -112,7 +112,7 @@ button {
 
 .image-area{
     width: 40%;
-    height: 800px;
+    height: 700px;
     margin-right: 10%;
 }
 .image-area img{
@@ -124,10 +124,34 @@ button {
 
 
 /* player imh */
+.players-area .adjust-area{
+    width: 80%;
+    margin-left: 13%;
+    margin-right: 10%;
+    margin-top: 30px;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    grid-row-gap: 27px;
+    
+}
 
+.adjust-area .players{
+    height: 474px;
+    width: 330px;
+    box-shadow: rgb(230, 220, 220) 10px 10px 10px 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.players-area p{
+ 
+    word-wrap: break-word;
+    
+}
 .players img{
-    height: 250px;
-    width: 250px;
+    height: 270px;
+    width: 330px;
 }
 
 
