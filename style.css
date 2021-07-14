@@ -235,6 +235,9 @@ height: 150px;
     }
 .fa-bars{
     display: block;
+    color: white;
+    margin-top: 14px;
+    font-size: 40px;
     
 }
 .second-part{
