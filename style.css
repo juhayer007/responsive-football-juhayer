@@ -329,19 +329,3 @@ height: 50px;
 }
 
 }
-
-/* @media only screen and (max-width: 800px;) {
-    
-  .players-area .adjust-area {
-        width: 80%;
-        margin-left: 8%;
-        display: flex;
-        flex-direction: column;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: space-between;
-        grid-row-gap: 37px;
-        grid-column-gap: 27px ;
-    } */
-
-        }
