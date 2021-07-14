@@ -3,6 +3,11 @@ body{
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
+body p{
+    font-weight: 200;
+    color: rgb(112, 105, 105);
+    font-family: 'Poppins', sans-serif;
+}
 header{
     background-color: #2D25A0;
     height: 70px;
@@ -33,10 +38,16 @@ header{
     margin-left: 5px;
     font-size: 20px;
     font-weight: 200;
+    text-transform: uppercase;
 
 }
 .menu-area ul li :hover{
-    background-color: red;
+    background-color: #E02C6D;
+    border-radius: 5px;
+     -ms-transform: scale(1.2); /* IE 9 */
+     -webkit-transform: scale(1.2); /* Safari 3-8 */
+     transform: scale(1.2); 
+    
 }
 
 .menu-area a{
@@ -120,6 +131,12 @@ button {
 
 }
 
+.image-area img:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+
 
 /* player imh */
 .players-area .adjust-area{
@@ -143,6 +160,8 @@ button {
     padding: 20px;
 
 }
+
+
 .players-area p{
  
     word-wrap: break-word;
@@ -197,6 +216,13 @@ button {
 
 }
 
+.frame iframe{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+
+}
 
 /* fotter area */
 
@@ -220,12 +246,18 @@ footer h3{
 .icons a img{
     width: 35px;
     height: 35px;
+    
    
+}
+.icons a img :hover {
+    border: 10px solid goldenrod;
 }
 .logo img{
     width: 550px;
 height: 150px;
 }
+
+
 
 
 @media only screen and (max-width: 500px) {
@@ -259,7 +291,6 @@ height: 150px;
   .players-area .adjust-area{
     width: 80%;
     margin-left: 8%;
-   
     display: flex;
     flex-direction: column;
     display: grid;
@@ -294,4 +325,25 @@ height: 50px;
     color: rgb(8, 3, 3);
 }
 
+.frame iframe{
+    width: 300px;
+    height: 200px;
 }
+
+}
+
+/* @media only screen and (max-width: 800px;) {
+    
+  .players-area .adjust-area {
+        width: 80%;
+        margin-left: 8%;
+        display: flex;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        grid-row-gap: 37px;
+        grid-column-gap: 27px ;
+    } */
+
+        }
