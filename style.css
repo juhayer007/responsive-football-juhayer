@@ -44,9 +44,7 @@ header{
 .menu-area ul li :hover{
     background-color: #E02C6D;
     border-radius: 5px;
-     -ms-transform: scale(1.2); /* IE 9 */
-     -webkit-transform: scale(1.2); /* Safari 3-8 */
-     transform: scale(1.2); 
+    
     
 }
 
