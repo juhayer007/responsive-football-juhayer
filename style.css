@@ -33,8 +33,6 @@ header{
     margin-left: 5px;
     font-size: 20px;
     font-weight: 200;
-    
-
 
 }
 .menu-area ul li :hover{
@@ -230,11 +228,67 @@ height: 150px;
 }
 
 
+@media only screen and (max-width: 500px) {
+.menu-area li a{
+    display: none;
+    
+    }
+.fa-bars{
+    display: block;
+    
+}
+.second-part{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    background-color:  #2D25A0;
+}
 
+.image-area img {
+     width: 396px;
+     margin-top: 0;
+     height: 290px;
+     margin-left: 10px;
 
+  }
 
+  .players-area .adjust-area{
+    width: 80%;
+    margin-left: 8%;
+   
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    grid-row-gap: 37px;
+    grid-column-gap: 27px ;
+    
+}
 
+.messi{
+    display: flex;
+    flex-direction: column;
+    
+}
 
+.image-part img{
+    height: 248px;
+    width: 361px;
+    margin-top: 20px;
+    margin-left: 36px;
 
+}
 
+.logo img{
+    width: 275px;
+height: 50px;
+}
+.text-part{
+  margin: 0 10%;
+    width: 80% ;
+    color: rgb(8, 3, 3);
+}
 
+}
