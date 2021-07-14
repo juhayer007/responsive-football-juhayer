@@ -126,14 +126,14 @@ button {
 /* player imh */
 .players-area .adjust-area{
     width: 80%;
-    margin-left: 13%;
-    margin-right: 10%;
+    margin-left: 8%;
     margin-top: 30px;
     display: flex;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    grid-row-gap: 27px;
+    grid-row-gap: 37px;
+    grid-column-gap: 27px ;
     
 }
 
@@ -141,8 +141,9 @@ button {
     height: 474px;
     width: 330px;
     box-shadow: rgb(230, 220, 220) 10px 10px 10px 10px;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 20px;
+
 }
 .players-area p{
  
@@ -152,12 +153,14 @@ button {
 .players img{
     height: 270px;
     width: 330px;
+
 }
 
 
 /* messi */
 .messi{
     display: flex;
+    margin-top: 100px;
     
 }
 
@@ -168,13 +171,62 @@ button {
     color: rgb(8, 3, 3);
 }
 
+.text-part button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+ 
+ }
+ 
+ .text-part button {
+     font-family: Poppins;
+     font-size: 20px;
+     background-color: #E02C6D;
+     margin-top: 10px;
+     padding: 10px 10px;
+ }
+
 .image-part{
     width: 40%;
     margin-right: 10%;
 }
+
 .image-part img{
-    width: 300px;
-    height: 300px;
+    height: 337px;
+    width: 487px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+
+/* fotter area */
+
+footer{
+   margin-top: 100px;
+    
+}
+
+.footer-area{
+margin-top: 100px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+footer h3{
+    font-weight: 200;
+    color: darkgrey;
+}
+.icons a img{
+    width: 35px;
+    height: 35px;
+   
+}
+.logo img{
+    width: 550px;
+height: 150px;
 }
 
 
